@@ -1,0 +1,13 @@
+.\objects\timer.o: ..\SYSTEM\TIMER\timer.c
+.\objects\timer.o: ..\SYSTEM\TIMER\timer.h
+.\objects\timer.o: ..\SYSLIB\stm32f10x.h
+.\objects\timer.o: ..\SYSLIB\core_cm3.h
+.\objects\timer.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\timer.o: ..\SYSTEM\SYS\sys.h
+.\objects\timer.o: ..\SYSTEM\BEEP\beep.h
+.\objects\timer.o: ..\SYSTEM\SYS\sys.h
+.\objects\timer.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timer.o: ..\SYSTEM\LED\led.h
+.\objects\timer.o: ..\SYSTEM\DELAY\delay.h
+.\objects\timer.o: ..\SYSTEM\USART\usart.h

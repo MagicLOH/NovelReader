@@ -1,0 +1,14 @@
+.\objects\diskio.o: ..\FATFS\diskio.c
+.\objects\diskio.o: ..\FATFS\ff.h
+.\objects\diskio.o: ..\FATFS\ffconf.h
+.\objects\diskio.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\diskio.o: ..\FATFS\diskio.h
+.\objects\diskio.o: ..\SYSTEM\SDCARD\sdcard.h
+.\objects\diskio.o: ..\SYSLIB\stm32f10x.h
+.\objects\diskio.o: ..\SYSLIB\core_cm3.h
+.\objects\diskio.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\diskio.o: ..\SYSTEM\SYS\sys.h
+.\objects\diskio.o: ..\SYSTEM\BEEP\beep.h
+.\objects\diskio.o: ..\SYSTEM\SYS\sys.h
+.\objects\diskio.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\diskio.o: ..\SYSTEM\RTC\rtc.h

@@ -1,0 +1,17 @@
+.\objects\nt35310.o: ..\SYSTEM\LCD\nt35310.c
+.\objects\nt35310.o: ..\SYSTEM\LCD\nt35310.h
+.\objects\nt35310.o: ..\SYSTEM\SYS\sys.h
+.\objects\nt35310.o: ..\SYSLIB\stm32f10x.h
+.\objects\nt35310.o: ..\SYSLIB\core_cm3.h
+.\objects\nt35310.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nt35310.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\nt35310.o: ..\SYSTEM\BEEP\beep.h
+.\objects\nt35310.o: ..\SYSTEM\SYS\sys.h
+.\objects\nt35310.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\nt35310.o: ..\SYSTEM\DELAY\delay.h
+.\objects\nt35310.o: ..\SYSTEM\W25Q64\w25q64.h
+.\objects\nt35310.o: ..\SYSTEM\SPI\spi.h
+.\objects\nt35310.o: ..\FATFS\ff.h
+.\objects\nt35310.o: ..\FATFS\ffconf.h
+.\objects\nt35310.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\nt35310.o: E:\MDK5\ARM\ARMCC\Bin\..\include\math.h

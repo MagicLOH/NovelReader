@@ -1,0 +1,14 @@
+.\objects\lcd_app.o: ..\SYSTEM\LCD\lcd_app.c
+.\objects\lcd_app.o: ..\SYSTEM\LCD\nt35310.h
+.\objects\lcd_app.o: ..\SYSTEM\SYS\sys.h
+.\objects\lcd_app.o: ..\SYSLIB\stm32f10x.h
+.\objects\lcd_app.o: ..\SYSLIB\core_cm3.h
+.\objects\lcd_app.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd_app.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\lcd_app.o: ..\SYSTEM\BEEP\beep.h
+.\objects\lcd_app.o: ..\SYSTEM\SYS\sys.h
+.\objects\lcd_app.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lcd_app.o: ..\SYSTEM\DELAY\delay.h
+.\objects\lcd_app.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\lcd_app.o: ..\SYSTEM\TOUCH\xpt2046.h
+.\objects\lcd_app.o: ..\SYSTEM\LED\led.h

@@ -1,0 +1,11 @@
+.\objects\w25q64.o: ..\SYSTEM\W25Q64\w25q64.c
+.\objects\w25q64.o: ..\SYSTEM\W25Q64\w25q64.h
+.\objects\w25q64.o: ..\SYSLIB\stm32f10x.h
+.\objects\w25q64.o: ..\SYSLIB\core_cm3.h
+.\objects\w25q64.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\w25q64.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\w25q64.o: ..\SYSTEM\SYS\sys.h
+.\objects\w25q64.o: ..\SYSTEM\BEEP\beep.h
+.\objects\w25q64.o: ..\SYSTEM\SYS\sys.h
+.\objects\w25q64.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\w25q64.o: ..\SYSTEM\SPI\spi.h

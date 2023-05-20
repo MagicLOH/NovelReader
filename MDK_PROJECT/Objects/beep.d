@@ -1,0 +1,9 @@
+.\objects\beep.o: ..\SYSTEM\BEEP\beep.c
+.\objects\beep.o: ..\SYSTEM\BEEP\beep.h
+.\objects\beep.o: ..\SYSLIB\stm32f10x.h
+.\objects\beep.o: ..\SYSLIB\core_cm3.h
+.\objects\beep.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\beep.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\beep.o: ..\SYSTEM\SYS\sys.h
+.\objects\beep.o: ..\SYSTEM\BEEP\beep.h
+.\objects\beep.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

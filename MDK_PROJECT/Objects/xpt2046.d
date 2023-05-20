@@ -1,0 +1,17 @@
+.\objects\xpt2046.o: ..\SYSTEM\TOUCH\xpt2046.c
+.\objects\xpt2046.o: ..\SYSTEM\TOUCH\xpt2046.h
+.\objects\xpt2046.o: ..\SYSTEM\SYS\sys.h
+.\objects\xpt2046.o: ..\SYSLIB\stm32f10x.h
+.\objects\xpt2046.o: ..\SYSLIB\core_cm3.h
+.\objects\xpt2046.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\xpt2046.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\xpt2046.o: ..\SYSTEM\BEEP\beep.h
+.\objects\xpt2046.o: ..\SYSTEM\SYS\sys.h
+.\objects\xpt2046.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\xpt2046.o: ..\SYSTEM\DELAY\delay.h
+.\objects\xpt2046.o: ..\SYSTEM\LCD\nt35310.h
+.\objects\xpt2046.o: ..\SYSTEM\AT24C08\at24c08.h
+.\objects\xpt2046.o: ..\SYSTEM\IIC\iic.h
+.\objects\xpt2046.o: ..\SYSTEM\KEY\key.h
+.\objects\xpt2046.o: ..\SYSTEM\LED\led.h
+.\objects\xpt2046.o: E:\MDK5\ARM\ARMCC\Bin\..\include\string.h

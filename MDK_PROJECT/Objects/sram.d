@@ -1,0 +1,10 @@
+.\objects\sram.o: ..\SYSTEM\SRAM\sram.c
+.\objects\sram.o: ..\SYSTEM\SRAM\sram.h
+.\objects\sram.o: ..\SYSLIB\stm32f10x.h
+.\objects\sram.o: ..\SYSLIB\core_cm3.h
+.\objects\sram.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sram.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\sram.o: ..\SYSTEM\SYS\sys.h
+.\objects\sram.o: ..\SYSTEM\BEEP\beep.h
+.\objects\sram.o: ..\SYSTEM\SYS\sys.h
+.\objects\sram.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

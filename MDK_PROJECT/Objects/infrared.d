@@ -1,0 +1,14 @@
+.\objects\infrared.o: ..\SYSTEM\INFRARED\infrared.c
+.\objects\infrared.o: ..\SYSTEM\INFRARED\infrared.h
+.\objects\infrared.o: ..\SYSLIB\stm32f10x.h
+.\objects\infrared.o: ..\SYSLIB\core_cm3.h
+.\objects\infrared.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\infrared.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\infrared.o: ..\SYSTEM\SYS\sys.h
+.\objects\infrared.o: ..\SYSTEM\BEEP\beep.h
+.\objects\infrared.o: ..\SYSTEM\SYS\sys.h
+.\objects\infrared.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\infrared.o: ..\SYSTEM\TIMER\timer.h
+.\objects\infrared.o: ..\SYSTEM\LED\led.h
+.\objects\infrared.o: ..\SYSTEM\DELAY\delay.h
+.\objects\infrared.o: ..\SYSTEM\USART\usart.h

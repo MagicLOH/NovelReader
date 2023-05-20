@@ -1,0 +1,12 @@
+.\objects\at24c08.o: ..\SYSTEM\AT24C08\at24c08.c
+.\objects\at24c08.o: ..\SYSTEM\AT24C08\at24c08.h
+.\objects\at24c08.o: ..\SYSLIB\stm32f10x.h
+.\objects\at24c08.o: ..\SYSLIB\core_cm3.h
+.\objects\at24c08.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\at24c08.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\at24c08.o: ..\SYSTEM\IIC\iic.h
+.\objects\at24c08.o: ..\SYSTEM\SYS\sys.h
+.\objects\at24c08.o: ..\SYSTEM\BEEP\beep.h
+.\objects\at24c08.o: ..\SYSTEM\SYS\sys.h
+.\objects\at24c08.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\at24c08.o: ..\SYSTEM\DELAY\delay.h

@@ -1,0 +1,13 @@
+.\objects\rtc.o: ..\SYSTEM\RTC\rtc.c
+.\objects\rtc.o: ..\SYSTEM\RTC\rtc.h
+.\objects\rtc.o: ..\SYSTEM\SYS\sys.h
+.\objects\rtc.o: ..\SYSLIB\stm32f10x.h
+.\objects\rtc.o: ..\SYSLIB\core_cm3.h
+.\objects\rtc.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\rtc.o: ..\SYSTEM\BEEP\beep.h
+.\objects\rtc.o: ..\SYSTEM\SYS\sys.h
+.\objects\rtc.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rtc.o: ..\SYSTEM\DELAY\delay.h
+.\objects\rtc.o: ..\FATFS\ff.h
+.\objects\rtc.o: ..\FATFS\ffconf.h

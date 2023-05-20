@@ -1,0 +1,10 @@
+.\objects\spi.o: ..\SYSTEM\SPI\spi.c
+.\objects\spi.o: ..\SYSTEM\SPI\spi.h
+.\objects\spi.o: ..\SYSLIB\stm32f10x.h
+.\objects\spi.o: ..\SYSLIB\core_cm3.h
+.\objects\spi.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\spi.o: ..\SYSLIB\system_stm32f10x.h
+.\objects\spi.o: ..\SYSTEM\SYS\sys.h
+.\objects\spi.o: ..\SYSTEM\BEEP\beep.h
+.\objects\spi.o: ..\SYSTEM\SYS\sys.h
+.\objects\spi.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
