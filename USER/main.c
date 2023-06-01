@@ -1,19 +1,22 @@
+#include <stdlib.h>
+#include <string.h>
+
+#include "delay.h"
+#include "usart.h"
+#include "timer.h"
+#include "ff.h"  //文件系统头文件
+
 #include "stm32f10x.h"
 #include "beep.h"
 #include "led.h"
 #include "key.h"
-#include "delay.h"
-#include "usart.h"
 #include "w25q64.h"
 #include "at24c08.h"
-#include "timer.h"
-#include <string.h>
 #include "xpt2046.h"
 #include "nt35310.h"
 #include "sram.h"
-#include <stdlib.h>
-#include "ff.h"  //文件系统头文件
 #include "sdcard.h"
+
 u8 SDcard_DownFont(const TCHAR *path, u32 addr, u16 font_size);  // 字库更新
 u8 FATFS_printDir(const TCHAR *path);                            // 遍历目录
 u16 List_CheckNode(FILE_INFO *head, u16 y, u8 *file_name);       // 查找文件
