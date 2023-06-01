@@ -1,271 +1,271 @@
 Dependencies for Project 'STM32HD', Target 'STM32HD': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (..\USER\main.c)(0x6233E775)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\LED\led.h)(0x622C1576)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\KEY\key.h)(0x622C158C)
-I (..\SYSTEM\USART\usart.h)(0x622C1567)
-I (..\SYSTEM\W25Q64\w25q64.h)(0x622C1563)
-I (..\SYSTEM\SPI\spi.h)(0x622C156E)
-I (..\SYSTEM\AT24C08\at24c08.h)(0x622C1596)
-I (..\SYSTEM\IIC\iic.h)(0x622C158F)
-I (..\SYSTEM\TIMER\timer.h)(0x622C1567)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5EC77604)
-I (..\SYSTEM\TOUCH\xpt2046.h)(0x622C1566)
-I (..\SYSTEM\LCD\nt35310.h)(0x643BD4E9)
-I (..\SYSTEM\SRAM\sram.h)(0x622C156E)
-I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (..\SYSTEM\SDCARD\sdcard.h)(0x62300852)
-F (..\SYSLIB\core_cm3.c)(0x622C155B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-F (..\SYSLIB\system_stm32f10x.c)(0x622C1558)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-F (..\SYSLIB\startup_stm32f10x_hd.s)(0x622C3AEB)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
-F (..\SYSTEM\BEEP\beep.c)(0x622C1595)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\SYS\sys.c)(0x622C156A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\DELAY\delay.c)(0x622C1592)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-F (..\SYSTEM\LED\led.c)(0x622C157A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
-I (..\SYSTEM\LED\led.h)(0x622C1576)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\KEY\key.c)(0x622C158D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
-I (..\SYSTEM\KEY\key.h)(0x622C158C)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\USART\usart.c)(0x622C1566)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
-I (..\SYSTEM\USART\usart.h)(0x622C1567)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\TIMER\timer.c)(0x622C1567)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
-I (..\SYSTEM\TIMER\timer.h)(0x622C1567)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\LED\led.h)(0x622C1576)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\USART\usart.h)(0x622C1567)
-F (..\SYSTEM\SPI\spi.c)(0x622C156F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
-I (..\SYSTEM\SPI\spi.h)(0x622C156E)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\W25Q64\w25q64.c)(0x622C1565)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\w25q64.o --omf_browse .\objects\w25q64.crf --depend .\objects\w25q64.d)
-I (..\SYSTEM\W25Q64\w25q64.h)(0x622C1563)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\SPI\spi.h)(0x622C156E)
-F (..\SYSTEM\IIC\iic.c)(0x622C1591)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
-I (..\SYSTEM\IIC\iic.h)(0x622C158F)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-F (..\SYSTEM\AT24C08\at24c08.c)(0x622C1598)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\at24c08.o --omf_browse .\objects\at24c08.crf --depend .\objects\at24c08.d)
-I (..\SYSTEM\AT24C08\at24c08.h)(0x622C1596)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\IIC\iic.h)(0x622C158F)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-F (..\SYSTEM\INFRARED\infrared.c)(0x622C158F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\infrared.o --omf_browse .\objects\infrared.crf --depend .\objects\infrared.d)
-I (..\SYSTEM\INFRARED\infrared.h)(0x622C158D)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\TIMER\timer.h)(0x622C1567)
-I (..\SYSTEM\LED\led.h)(0x622C1576)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\USART\usart.h)(0x622C1567)
-F (..\SYSTEM\LCD\nt35310.c)(0x623333F4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\nt35310.o --omf_browse .\objects\nt35310.crf --depend .\objects\nt35310.d)
-I (..\SYSTEM\LCD\nt35310.h)(0x643BD4E9)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\W25Q64\w25q64.h)(0x622C1563)
-I (..\SYSTEM\SPI\spi.h)(0x622C156E)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (E:\MDK5\ARM\ARMCC\include\math.h)(0x5EC77604)
-F (..\SYSTEM\LCD\bmp_320_480.c)(0x622C158C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\bmp_320_480.o --omf_browse .\objects\bmp_320_480.crf --depend .\objects\bmp_320_480.d)
-F (..\SYSTEM\LCD\gbk_16_16_1.c)(0x622C1588)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\gbk_16_16_1.o --omf_browse .\objects\gbk_16_16_1.crf --depend .\objects\gbk_16_16_1.d)
-F (..\SYSTEM\LCD\gbk_16_16_2.c)(0x622C1587)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\gbk_16_16_2.o --omf_browse .\objects\gbk_16_16_2.crf --depend .\objects\gbk_16_16_2.d)
-F (..\SYSTEM\LCD\ascii.c)(0x6232D08B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ascii.o --omf_browse .\objects\ascii.crf --depend .\objects\ascii.d)
-F (..\SYSTEM\TOUCH\xpt2046.c)(0x6233DEA8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\xpt2046.o --omf_browse .\objects\xpt2046.crf --depend .\objects\xpt2046.d)
-I (..\SYSTEM\TOUCH\xpt2046.h)(0x622C1566)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\LCD\nt35310.h)(0x643BD4E9)
-I (..\SYSTEM\AT24C08\at24c08.h)(0x622C1596)
-I (..\SYSTEM\IIC\iic.h)(0x622C158F)
-I (..\SYSTEM\KEY\key.h)(0x622C158C)
-I (..\SYSTEM\LED\led.h)(0x622C1576)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\SYSTEM\SRAM\sram.c)(0x6233365C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sram.o --omf_browse .\objects\sram.crf --depend .\objects\sram.d)
-I (..\SYSTEM\SRAM\sram.h)(0x622C156E)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\SYSTEM\WDG\wdg.c)(0x622C1563)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\wdg.o --omf_browse .\objects\wdg.crf --depend .\objects\wdg.d)
-I (..\SYSTEM\WDG\wdg.h)(0x622C1563)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-F (..\SYSTEM\SDCARD\sdcard.c)(0x62381722)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sdcard.o --omf_browse .\objects\sdcard.crf --depend .\objects\sdcard.d)
-I (..\SYSTEM\SDCARD\sdcard.h)(0x62300852)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\SYSTEM\RTC\rtc.c)(0x622C1575)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
-I (..\SYSTEM\RTC\rtc.h)(0x622C1574)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-F (..\SYSTEM\SDCARD\fileapp.c)(0x643B9D22)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\fileapp.o --omf_browse .\objects\fileapp.crf --depend .\objects\fileapp.d)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\SYSTEM\W25Q64\w25q64.h)(0x622C1563)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\SPI\spi.h)(0x622C156E)
-I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5EC77604)
-I (..\SYSTEM\SDCARD\sdcard.h)(0x62300852)
-I (..\SYSTEM\LCD\nt35310.h)(0x643BD4E9)
-I (..\SYSTEM\DELAY\delay.h)(0x622C1592)
-I (..\SYSTEM\TOUCH\xpt2046.h)(0x622C1566)
-F (..\FATFS\diskio.c)(0x622C1562)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\FATFS\diskio.h)(0x622C155F)
-I (..\SYSTEM\SDCARD\sdcard.h)(0x62300852)
-I (..\SYSLIB\stm32f10x.h)(0x622C155A)
-I (..\SYSLIB\core_cm3.h)(0x622C155B)
-I (..\SYSLIB\system_stm32f10x.h)(0x622C1557)
-I (..\SYSTEM\SYS\sys.h)(0x622C156A)
-I (..\SYSTEM\BEEP\beep.h)(0x622C15AA)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\SYSTEM\RTC\rtc.h)(0x622C1574)
-F (..\FATFS\ff.c)(0x622C1563)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5EC77604)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\FATFS\diskio.h)(0x622C155F)
-F (..\FATFS\ffsystem.c)(0x622C155C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ffsystem.o --omf_browse .\objects\ffsystem.crf --depend .\objects\ffsystem.d)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-F (..\FATFS\ffunicode.c)(0x622C155E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-I"E:\MDK5\MDK5 PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ffunicode.o --omf_browse .\objects\ffunicode.crf --depend .\objects\ffunicode.d)
-I (..\FATFS\ff.h)(0x622C155F)
-I (..\FATFS\ffconf.h)(0x622C1560)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-F (..\FATFS\ffconf.h)(0x622C1560)()
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\USER\main.c)(0x64787D8D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\LED\led.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\KEY\key.h)(0x64787BD3)
+I (..\SYSTEM\USART\usart.h)(0x64787BD3)
+I (..\SYSTEM\W25Q64\w25q64.h)(0x64787BD3)
+I (..\SYSTEM\SPI\spi.h)(0x64787BD3)
+I (..\SYSTEM\AT24C08\at24c08.h)(0x64787BD3)
+I (..\SYSTEM\IIC\iic.h)(0x64787BD3)
+I (..\SYSTEM\TIMER\timer.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\SYSTEM\TOUCH\xpt2046.h)(0x64787BD3)
+I (..\SYSTEM\LCD\nt35310.h)(0x64787BD3)
+I (..\SYSTEM\SRAM\sram.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (..\SYSTEM\SDCARD\sdcard.h)(0x64787BD3)
+F (..\SYSLIB\core_cm3.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (..\SYSLIB\system_stm32f10x.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+F (..\SYSLIB\startup_stm32f10x_hd.s)(0x64787BD3)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 532" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\SYSTEM\BEEP\beep.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\SYS\sys.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\DELAY\delay.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+F (..\SYSTEM\LED\led.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\SYSTEM\LED\led.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\KEY\key.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\SYSTEM\KEY\key.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\USART\usart.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\SYSTEM\USART\usart.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\TIMER\timer.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\SYSTEM\TIMER\timer.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\LED\led.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\USART\usart.h)(0x64787BD3)
+F (..\SYSTEM\SPI\spi.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (..\SYSTEM\SPI\spi.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\W25Q64\w25q64.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\w25q64.o --omf_browse .\objects\w25q64.crf --depend .\objects\w25q64.d)
+I (..\SYSTEM\W25Q64\w25q64.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\SPI\spi.h)(0x64787BD3)
+F (..\SYSTEM\IIC\iic.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
+I (..\SYSTEM\IIC\iic.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+F (..\SYSTEM\AT24C08\at24c08.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\at24c08.o --omf_browse .\objects\at24c08.crf --depend .\objects\at24c08.d)
+I (..\SYSTEM\AT24C08\at24c08.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\IIC\iic.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+F (..\SYSTEM\INFRARED\infrared.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\infrared.o --omf_browse .\objects\infrared.crf --depend .\objects\infrared.d)
+I (..\SYSTEM\INFRARED\infrared.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\TIMER\timer.h)(0x64787BD3)
+I (..\SYSTEM\LED\led.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\USART\usart.h)(0x64787BD3)
+F (..\SYSTEM\LCD\nt35310.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\nt35310.o --omf_browse .\objects\nt35310.crf --depend .\objects\nt35310.d)
+I (..\SYSTEM\LCD\nt35310.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\W25Q64\w25q64.h)(0x64787BD3)
+I (..\SYSTEM\SPI\spi.h)(0x64787BD3)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (E:\MDK5\ARM\ARMCC\include\math.h)(0x5F63877C)
+F (..\SYSTEM\LCD\bmp_320_480.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\bmp_320_480.o --omf_browse .\objects\bmp_320_480.crf --depend .\objects\bmp_320_480.d)
+F (..\SYSTEM\LCD\gbk_16_16_1.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\gbk_16_16_1.o --omf_browse .\objects\gbk_16_16_1.crf --depend .\objects\gbk_16_16_1.d)
+F (..\SYSTEM\LCD\gbk_16_16_2.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\gbk_16_16_2.o --omf_browse .\objects\gbk_16_16_2.crf --depend .\objects\gbk_16_16_2.d)
+F (..\SYSTEM\LCD\ascii.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ascii.o --omf_browse .\objects\ascii.crf --depend .\objects\ascii.d)
+F (..\SYSTEM\TOUCH\xpt2046.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\xpt2046.o --omf_browse .\objects\xpt2046.crf --depend .\objects\xpt2046.d)
+I (..\SYSTEM\TOUCH\xpt2046.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\LCD\nt35310.h)(0x64787BD3)
+I (..\SYSTEM\AT24C08\at24c08.h)(0x64787BD3)
+I (..\SYSTEM\IIC\iic.h)(0x64787BD3)
+I (..\SYSTEM\KEY\key.h)(0x64787BD3)
+I (..\SYSTEM\LED\led.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5F63878A)
+F (..\SYSTEM\SRAM\sram.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sram.o --omf_browse .\objects\sram.crf --depend .\objects\sram.d)
+I (..\SYSTEM\SRAM\sram.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (..\SYSTEM\WDG\wdg.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\wdg.o --omf_browse .\objects\wdg.crf --depend .\objects\wdg.d)
+I (..\SYSTEM\WDG\wdg.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+F (..\SYSTEM\SDCARD\sdcard.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\sdcard.o --omf_browse .\objects\sdcard.crf --depend .\objects\sdcard.d)
+I (..\SYSTEM\SDCARD\sdcard.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5F63878A)
+F (..\SYSTEM\RTC\rtc.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (..\SYSTEM\RTC\rtc.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+F (..\SYSTEM\SDCARD\fileapp.c)(0x64787CA1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\fileapp.o --omf_browse .\objects\fileapp.crf --depend .\objects\fileapp.d)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\SYSTEM\W25Q64\w25q64.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\SPI\spi.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\SYSTEM\SDCARD\sdcard.h)(0x64787BD3)
+I (..\SYSTEM\LCD\nt35310.h)(0x64787BD3)
+I (..\SYSTEM\DELAY\delay.h)(0x64787BD3)
+I (..\SYSTEM\TOUCH\xpt2046.h)(0x64787BD3)
+F (..\FATFS\diskio.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\FATFS\diskio.h)(0x64787BD3)
+I (..\SYSTEM\SDCARD\sdcard.h)(0x64787BD3)
+I (..\SYSLIB\stm32f10x.h)(0x64787BD3)
+I (..\SYSLIB\core_cm3.h)(0x64787BD3)
+I (..\SYSLIB\system_stm32f10x.h)(0x64787BD3)
+I (..\SYSTEM\SYS\sys.h)(0x64787BD3)
+I (..\SYSTEM\BEEP\beep.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (..\SYSTEM\RTC\rtc.h)(0x64787BD3)
+F (..\FATFS\ff.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\FATFS\diskio.h)(0x64787BD3)
+F (..\FATFS\ffsystem.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ffsystem.o --omf_browse .\objects\ffsystem.crf --depend .\objects\ffsystem.d)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+F (..\FATFS\ffunicode.c)(0x64787BD3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSLIB -I ..\SYSTEM\BEEP -I ..\SYSTEM\SYS -I ..\SYSTEM\DELAY -I ..\SYSTEM\LED -I ..\SYSTEM\KEY -I ..\SYSTEM\USART -I ..\SYSTEM\TIMER -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\SPI -I ..\SYSTEM\W25Q64 -I ..\SYSTEM\IIC -I ..\SYSTEM\AT24C08 -I ..\SYSTEM\INFRARED -I ..\SYSTEM\LCD -I ..\SYSTEM\TOUCH -I ..\SYSTEM\SRAM -I ..\SYSTEM\WDG -I ..\SYSTEM\SDCARD -I ..\FATFS -I ..\SYSTEM\RTC-IE:\MDK5\MDK5_PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F10X_HD -DSTM32F10X_HD -DDATA_IN_ExtSRAM-o .\objects\ffunicode.o --omf_browse .\objects\ffunicode.crf --depend .\objects\ffunicode.d)
+I (..\FATFS\ff.h)(0x64787BD3)
+I (..\FATFS\ffconf.h)(0x64787BD3)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (..\FATFS\ffconf.h)(0x64787BD3)()
